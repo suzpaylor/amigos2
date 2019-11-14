@@ -1,4 +1,26 @@
 /* PORTFOLIO PAGE */
+
+.nav-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    font-family: 'Montserrat', sans-serif;
+    font-variant: small-caps;
+    letter-spacing: .2em;
+    color: grey;
+    transition: .25s;
+}
+
+a {
+    color: grey;
+    text-decoration: none!important;
+    transition: .25s;
+}
+
+a:hover {
+    color: rgb(86, 86,86);
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
